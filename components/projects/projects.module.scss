@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    max-width: 1150px;
+    margin: auto;
+    padding: 9.6rem;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+      padding: 2.6rem;
+    }
+    
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+    list-style: none;
+  
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
