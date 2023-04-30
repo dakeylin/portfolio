@@ -51,7 +51,7 @@ export default function Header() {
           </Link>
         </motion.span>
       </div>
-      <button className={styles.btn} onClick={() => window.open("")}>Резюме</button>
+      <button className={styles.btn} onClick={() => window.open("/public/Попоудин Даниил.pdf")}>Резюме</button>
     </header>
   );
 }
