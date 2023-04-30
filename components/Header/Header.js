@@ -51,7 +51,7 @@ export default function Header() {
           </Link>
         </motion.span>
       </div>
-      <button className={styles.btn} onClick={() => window.open("https://portfolio-dakeylin.vercel.app/resume.pdf")}>Резюме</button>y
+      <button className={styles.btn} onClick={() => window.open("https://drive.google.com/file/d/1Dhf-oMNfVAod9OYioB6hd7RTWZ6ZKho7/view?usp=share_link")}>Резюме</button>y
     </header>
   );
 }
